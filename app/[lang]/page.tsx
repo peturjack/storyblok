@@ -24,7 +24,7 @@ const getLandingPageData = async (lang: any) => {
     faq_section,
     footer_section,
   } = storyData.story.content;
-
+  //Hello world
   return {
     nav_section: nav_section[0],
     hero_section: hero_section[0],
