@@ -22,6 +22,7 @@ const Services = ({ data }: serviceProps) => {
         <div className="space-y-8 lg:grid lg:grid-cols-2 sm:gap-6 xl:gap-10 lg:space-y-0 place-items-center items-stretch">
           {service_cards.map((s) => (
             <div
+              //added key
               key={s.title}
               className="flex flex-col p-6 lg:mx-1 sm:mx-auto max-w-lg text-center rounded-lg border shadow border-gray-600 xl:p-8 text-white bg-neutral-800"
             >
